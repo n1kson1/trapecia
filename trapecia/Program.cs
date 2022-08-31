@@ -2,17 +2,24 @@ class Programm
 {
     public static void Main()
     {
-        Trapezoid figure = new Trapezoid(9, 6, 16, 4, 14);
+        Trapezoid figure = new Trapezoid(10, 11, 21, 10, 26);
 
         float TrapezoidSquare(float a, float b, float h)
         {
             return ((a + b) * h) / 2;
         }
 
+        Console.Write("Площадь трапеции  : ");
+        Console.WriteLine($"{TrapezoidSquare}");
+
         float TrapezoidPerimetr(float AB, float BC, float CD, float AD)
         {
             return (AB + BC + CD + AD);
+
         }
+
+        Console.Write("Периметр трапеции : ");
+        Console.WriteLine($"{TrapezoidPerimetr}");
     }
 
     class Trapezoid
@@ -36,15 +43,16 @@ class Programm
             float BC = b + c;
             float CD = c + d;
             float AD = a + d;
-            float TrapezoidPerimetr = AB + BC + CD + AD;
-            float TrapezoidSquare = ((a + b) * h) / 2;
+
+            //float TrapezoidPerimetr = AB + BC + CD + AD;
+            //float TrapezoidSquare = ((a + b) * h) / 2;
 
 
-            Console.Write("Площадь трапеции  : ");
-            Console.WriteLine($"{TrapezoidSquare}");
+            //Console.Write("Площадь трапеции  : ");
+            //Console.WriteLine($"{TrapezoidSquare}");
 
-            Console.Write("Периметр трапеции : ");
-            Console.WriteLine($"{TrapezoidPerimetr}");
+            //Console.Write("Периметр трапеции : ");
+            //Console.WriteLine($"{TrapezoidPerimetr}");
 
             Console.Write("Сторона АВ = ");
             Console.WriteLine($"{AB}");
