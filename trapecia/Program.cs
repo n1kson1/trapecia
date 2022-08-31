@@ -15,7 +15,6 @@ class Programm
         float TrapezoidPerimetr(float AB, float BC, float CD, float AD)
         {
             return (AB + BC + CD + AD);
-
         }
 
         Console.Write("Периметр трапеции : ");
@@ -37,7 +36,6 @@ class Programm
             this.c = c;
             this.d = d;
             this.h = h;
-
             
             float AB = a + b;
             float BC = b + c;
@@ -46,7 +44,6 @@ class Programm
 
             //float TrapezoidPerimetr = AB + BC + CD + AD;
             //float TrapezoidSquare = ((a + b) * h) / 2;
-
 
             //Console.Write("Площадь трапеции  : ");
             //Console.WriteLine($"{TrapezoidSquare}");
