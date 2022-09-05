@@ -7,13 +7,16 @@ class Programm
 
 		figure.TrapezoidSquare();
         {
-
+			float s = ;
+			Console.Write("Площадь трапеции = ");
+			Console.WriteLine($"{s}");
         }
 
 		figure.TrapezoidPerimetr();
 		{
-			float p = 
-			//Console.WriteLine($"{p}");
+			float p = ;
+			Console.Write("Периметр трапеции = ");
+			Console.WriteLine($"{p}");
 		}
 	}
 
